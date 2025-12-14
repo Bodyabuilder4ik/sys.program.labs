@@ -1,2 +1,5 @@
 # sys.program.labs
-Лаби з сис.програмування Могилевець Б.Р ПІ-232
+
+Labs for System Programming and OS Administration
+
+Author: Mogilevets B.R PI-232
