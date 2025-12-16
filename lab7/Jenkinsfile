@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                sh 'echo Build stage'
+            }
+        }
+
+        stage('Install package') {
+            steps {
+                sh '''
+                dpkg -i lab5.deb || true
+                count_files.sh || true
+                '''
+            }
+        }
+    }
+}
